@@ -95,7 +95,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Divide_Null()
+        public void Divide_Is_Null()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Divide("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, "1"));
