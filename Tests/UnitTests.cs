@@ -95,7 +95,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Divide_Null_Lofgren()
+        public void Divide_Is_Null_Lofgren()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Divide("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, "1"));
